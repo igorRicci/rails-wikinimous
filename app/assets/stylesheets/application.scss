@@ -1,5 +1,24 @@
 @import "bootstrap/scss/bootstrap";
 
-.container {
-  background-color: red;
+// .container {
+//   padding: 0;
+//   background-color: rgb(197, 192, 169);
+// }
+
+.navbar {
+  background-color: rgb(238, 238, 238);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #216eb1;
 }
