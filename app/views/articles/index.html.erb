@@ -1,8 +1,8 @@
-<h1>Articles</h1>
 
-<%= link_to 'Add a new article', new_article_path %>
 
-<ul>
+
+
+<ul class="list-unstyled">
   <% @articles.each do |article| %>
     <li><%= link_to article.title, article_path(article) %></li>
   <% end %>
