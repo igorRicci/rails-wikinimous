@@ -7,6 +7,16 @@
 
 .navbar {
   background-color: rgb(238, 238, 238);
+  // max-height: 20px;
+}
+
+.nav-text {
+  color:#777;
+}
+
+.nav-text:hover {
+  color:rgb(85, 85, 85);
+  text-decoration: none;
 }
 
 h2 {
@@ -21,6 +31,14 @@ a {
 a:hover {
   text-decoration: underline;
   color: #216eb1;
+}
+
+a.btn-danger:hover {
+  text-decoration: none;
+}
+
+a.btn-primary:hover {
+  text-decoration: none;
 }
 
 h2 {

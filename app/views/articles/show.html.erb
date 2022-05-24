@@ -3,11 +3,9 @@
 <p><%= @article.content %></p>
 
 <hr>
-<%= link_to "Edit article", edit_article_path %>
-<hr>
+<%= link_to "Edit article", edit_article_path, class: "btn btn-primary" %>
 <%= link_to "Delete article",
             article_path(@article),
+            class: "btn btn-danger",
             method: :delete,
             data: { confirm: "Are you sure?" } %>
-<hr>
-<%= link_to "Homepage", articles_path %>
